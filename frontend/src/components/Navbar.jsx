@@ -33,7 +33,7 @@ function Navbar() {
             </linearGradient>
           </defs>
         </svg>
-        TaskFlow
+        TeamFlow
       </Link>
       <div className="nav-links">
         {user ? (
