@@ -121,6 +121,11 @@ a:hover {
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
 }
 
+select.form-control option {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;
