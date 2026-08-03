@@ -11,73 +11,75 @@ Many students work on team projects during college, but coordinating tasks effec
 TeamFlow was built to solve this problem by providing a centralized collaboration platform where Project Leaders can create projects, invite team members, assign tasks, set priorities and deadlines, and monitor overall progress. Team Members can securely access their assigned tasks and update their status, enabling better collaboration, transparency, and project management.
 
 ---
-
 # 📸 Application Preview
 
 ---
 
-# 🔐 Authentication
+## 🔐 Register
 
-### Register
+Create a new Team Leader or Team Member account.
+
 ![Register](images/register.png)
 
-### Login
+---
+
+## 🔑 Login
+
+Secure authentication using JWT.
+
 ![Login](images/login.png)
 
 ---
 
 # 👑 Team Leader (Admin)
 
-### Dashboard
-Create and manage projects from a centralized workspace.
+## 📊 Admin Dashboard
+
+Create and manage projects from a centralized dashboard.
 
 ![Admin Dashboard](images/admin-dashboard.png)
 
 ---
 
-### Invite Team Members
-Invite users to collaborate on the project.
+## 📁 Create Project & Invite Members
 
-![Invite Members](images/invite-members.png)
+Create a project and invite team members using their email.
+
+![Create Project & Invite Members](images/invite-member&create-project.png)
 
 ---
 
-### Create & Manage Tasks
+## ✅ Create & Assign Tasks
+
 Create tasks, assign priorities, dependencies, and due dates.
 
 ![Create Task](images/create-task.png)
 
 ---
 
-### Activity Feed
-Track all project activities in real time.
-
-![Activity Feed](images/activity-feed.png)
-
----
-
 # 👤 Team Member
 
-### Pending Invitations
-Accept project invitations from Team Leaders.
+## 📨 Accept Invitation & Dashboard
 
-![Pending Invitations](images/pending-invitations.png)
+Team members can accept invitations and access assigned projects.
 
----
-
-### Assigned Tasks
-View assigned tasks and update their progress.
-
-![Assigned Tasks](images/member-dashboard.png)
+![Member Dashboard](images/member-dashboard.png)
 
 ---
 
-### Task Version History
-View the complete history of task updates and status changes.
+## 🔄 Task Status Updates
 
-![Task History](images/task-history.png)
+Update task progress from Pending → In Progress → Completed.
+
+![Task Status Updates](images/task-status-updates.png)
 
 ---
+
+## 📜 Task Version History
+
+Every task update is stored as a new version for complete change tracking.
+
+![Task Version History](images/task-version-history.png)
 
 # ✨ Features
 
