@@ -1,98 +1,117 @@
-# Task Management System (Full-Stack | JWT Auth | Role-Based Access)
+# 🚀 TeamFlow
 
-## Overview
-A full-stack Task Management system with secure authentication and role-based access control. Users can register, log in, and manage tasks through a protected dashboard.
-
-Designed with a clean, modular backend architecture and scalable structure.
+TeamFlow is a **Full-Stack Team Collaboration Platform** built using the **MERN Stack**. It enables Project Leaders to create projects, invite members, assign tasks, monitor progress, and collaborate through a secure role-based dashboard.
 
 ---
 
-## Features
+# 🎯 Problem Statement
 
-### 🔐 Authentication & Authorization
-- User registration & login
-- Password hashing using bcrypt
-- JWT-based authentication
-- Role-based access (admin/user)
+Many students work on team projects during college, but coordinating tasks effectively is often challenging. Tasks are usually assigned through WhatsApp messages, spreadsheets, or verbal discussions, making it difficult to track progress, manage responsibilities, and ensure accountability. As a result, project leaders struggle to organize work efficiently, while team members lack a centralized place to view and update their assigned tasks.
 
-### 📌 Task Management (CRUD)
-- Create tasks
-- View tasks
-- Update tasks 
-- Delete tasks
-
-### 🛡️ Security & Validation
-- Protected API routes
-- Input validation
-- Error handling with proper HTTP status codes
-
-### 🌐 Frontend
-- React-based minimal UI
-- Login & registration forms
-- Task dashboard
-- API integration with backend
+TeamFlow was built to solve this problem by providing a centralized collaboration platform where Project Leaders can create projects, invite team members, assign tasks, set priorities and deadlines, and monitor overall progress. Team Members can securely access their assigned tasks and update their status, enabling better collaboration, transparency, and project management.
 
 ---
 
-## Tech Stack
+# 📸 Application Preview
 
-### Backend
+### 🔐 Login
+![Login](images/login.png)
+
+### 🏠 Dashboard
+![Dashboard](images/dashboard.png)
+
+### 📁 Project Management
+![Projects](images/projects.png)
+
+### ✅ Task Management
+![Tasks](images/tasks.png)
+
+### 📜 Activity Timeline
+![Activity](images/activity.png)
+
+---
+
+# ✨ Features
+
+- 🔐 JWT Authentication & RBAC
+- 👥 Team Invitation System
+- 📁 Project Management
+- ✅ Task Assignment & Status Tracking
+- 📜 Activity Timeline
+- ♻️ Task Version History
+- 🎯 Task Priority & Deadlines
+- ☁️ Cloud Deployment (Vercel & Render)
+
+---
+
+# 🛠️ Tech Stack
+
+**Frontend**
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+
+**Backend**
 - Node.js
 - Express.js
-- MongoDB (Mongoose)
+- MongoDB
 - JWT Authentication
 - bcrypt
 
-### Frontend
-- React.js (Vite)
-- Axios
+**Deployment**
+- Vercel
+- Render
 
 ---
 
-## Project Structure
+# ⚙️ Installation
 
-assigment/
-│
-├── backend/
-├── frontend/
-└── README.md
+```bash
+git clone https://github.com/vijaygithub25/TeamFlow-mern.git
+
+cd backend
+npm install
+npm run dev
+
+cd ../frontend
+npm install
+npm run dev
+```
 
 ---
 
-## Setup Instructions
+# 🔑 Environment Variables
 
 ### Backend
-cd backend  
-npm install  
-npm run dev  
+
+```env
+MONGO_URI=
+JWT_SECRET=
+CLIENT_URL=
+```
 
 ### Frontend
-cd frontend  
-npm install  
-npm run dev  
+
+```env
+VITE_API_URL=
+```
 
 ---
 
-## API Endpoints
+# 🌐 Live Demo
 
-### Auth
-- POST /api/auth/register  
-- POST /api/auth/login  
-
-### Tasks
-- GET /api/tasks  
-- POST /api/tasks  
-- PUT /api/tasks/:id  
-- DELETE /api/tasks/:id  
+**Frontend:** https://team-flow-mern.vercel.app/
 
 ---
 
-## Notes
-- JWT used for secure authentication  
-- Clean modular architecture  
-- Basic scalable design followed  
+# 👨‍💻 Author
+
+**Chippe Vijay**
+
+GitHub: https://github.com/vijaygithub25
+
 
 ---
 
-## Author
-Vijay
+⭐ If you found this project useful, consider giving it a star!
