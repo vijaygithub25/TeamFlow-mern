@@ -14,20 +14,68 @@ TeamFlow was built to solve this problem by providing a centralized collaboratio
 
 # 📸 Application Preview
 
-### 🔐 Login
+---
+
+# 🔐 Authentication
+
+### Register
+![Register](images/register.png)
+
+### Login
 ![Login](images/login.png)
 
-### 🏠 Dashboard
-![Dashboard](images/dashboard.png)
+---
 
-### 📁 Project Management
-![Projects](images/projects.png)
+# 👑 Team Leader (Admin)
 
-### ✅ Task Management
-![Tasks](images/tasks.png)
+### Dashboard
+Create and manage projects from a centralized workspace.
 
-### 📜 Activity Timeline
-![Activity](images/activity.png)
+![Admin Dashboard](images/admin-dashboard.png)
+
+---
+
+### Invite Team Members
+Invite users to collaborate on the project.
+
+![Invite Members](images/invite-members.png)
+
+---
+
+### Create & Manage Tasks
+Create tasks, assign priorities, dependencies, and due dates.
+
+![Create Task](images/create-task.png)
+
+---
+
+### Activity Feed
+Track all project activities in real time.
+
+![Activity Feed](images/activity-feed.png)
+
+---
+
+# 👤 Team Member
+
+### Pending Invitations
+Accept project invitations from Team Leaders.
+
+![Pending Invitations](images/pending-invitations.png)
+
+---
+
+### Assigned Tasks
+View assigned tasks and update their progress.
+
+![Assigned Tasks](images/member-dashboard.png)
+
+---
+
+### Task Version History
+View the complete history of task updates and status changes.
+
+![Task History](images/task-history.png)
 
 ---
 
